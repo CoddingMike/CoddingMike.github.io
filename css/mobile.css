@@ -43,6 +43,10 @@ footer div ul li {
     list-style: none;
 }
 
+footer div ul li {
+    font-size: 0.9rem;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -56,4 +60,9 @@ footer div ul li {
 
 .contact-form form button {
     margin-top: 5px
+}
+
+.form-control,
+.send-button {
+    font-size: 0.9rem;
 }
