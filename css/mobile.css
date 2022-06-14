@@ -1,0 +1,59 @@
+html {
+    font-size: 12px;
+}
+
+main select h1 {
+    font-size: 3rem;
+}
+
+.product img {
+    width: 85%;
+    height: 55%;
+}
+
+#section-coffee {
+    padding-bottom: 5px;
+}
+
+.container {
+    width: 85%;
+    padding: 20px 0px;
+}
+
+.contact-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-title {
+    width: 100%;
+    text-align: center;
+}
+
+.contact-list-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3px 0px;
+    padding: 0;
+    width: 100%;
+}
+
+footer div ul li {
+    list-style: none;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form form {
+    margin-left: 0px;
+}
+
+.contact-form form button {
+    margin-top: 5px
+}

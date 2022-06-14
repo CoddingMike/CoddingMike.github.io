@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+* {
+    font-family: Poppins, sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    padding: 60px 0px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+
+/* MENU: NAVBAR/HEADER */
+
+nav {
+    background-color: red;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 5px;
+    list-style-type: none;
+    background-color: #222222;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 25%;
+}
+
+nav ul li a {
+    color: #eeeeee;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 100;
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 8px 0px;
+    margin: 2px;
+    display: block;
+    text-align: center;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(213, 151, 65, 0.3);
+    transition: 0.5s;
+}
+
+
+/* SECTION MAIN IMAGE */
+
+#section-main-image {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2071&q=80');
+    background-position: left top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section-main-image h1 {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 0 25px 0;
+    font-size: 6rem;
+}
+
+#section-main-image p {
+    color: rgb(226, 226, 226);
+    font-size: 1.2rem;
+    margin: 0;
+    text-shadow: 0px 3px 3px #000;
+}
+
+
+/* SECTION COFFEE */
+
+#section-coffee {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+#section-coffee h2 {
+    margin: 40px 0 20px;
+}
+
+#section-coffee p {
+    text-align: justify;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product {
+    padding: 0 15px;
+}
+
+.product img {
+    width: 100%;
+    height: 70%;
+}
+
+
+/* FOOTER CONTACT */
+
+#footer-contact {
+    background-color: #58462c;
+    color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-contact .contact-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form form {
+    margin-left: 50px;
+    text-align: right;
+}
+
+.contact-form form .form-control {
+    padding: 10px 0;
+}
+
+.contact-form form .form-control label {
+    margin-right: 15px;
+}
+
+.contact-form form button {
+    margin-top: 15px;
+    color: #58462c;
+    padding: 2px 30px;
+}
